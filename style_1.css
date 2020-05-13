@@ -1,0 +1,74 @@
+body{
+    font-family: 'Stint Ultra Expanded', cursive;
+}
+header{
+    background-image: url(/images/croissants_banner.jpg) ;
+    background-size: cover;
+    text-align: center;}
+
+header ul{
+    list-style-type: none;
+}
+a:link {
+    color: #F9AB33;
+    text-decoration: none;
+    border-width: 0px;
+    border-bottom: 1px;
+    border-style:dotted ;
+}
+a:visited{
+    color: #F9AB33;
+}
+a:hover {
+    color:  #608080;
+}
+nav {
+    background-color: #783F27;
+    font-family: Verdana;
+    font-size: 0.8em;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+header p{
+    font-style: italic;
+    color: #FFFFFF ;
+}
+footer{
+    background-color: #783F27 ;
+    color: #EADDC4;
+    text-align: center;
+    padding: 1em ;
+    }
+div.main h2{
+    color: #555555;
+}
+div.main{
+    border-color:#EADDC4 ;
+    border-style: double;
+    border-radius: 25px 25px 25px 25px ;
+    margin: 2.5%;
+    padding: 1em;
+}
+div.main h3{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #7A0002 ;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-left-width: 3px;
+    border-left-style: solid;
+    padding: 1em;
+    margin-top: 2.5%;
+
+}
+.hours{
+    background-color:  #F6F3ED ;
+    margin: 2.5%;
+    padding: 1em;
+    border-color: #7A0002;
+    border-style: solid;   
+}
+.day{
+    color: #783F27 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
